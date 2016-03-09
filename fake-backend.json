@@ -1,19 +1,90 @@
 {
+  "login": [
+    {
+      "session": "1234abcd",
+      "username": "jadams",
+      "displayName": "John Adams",
+      "role": "admin"
+    },
+    {
+      "session": "wxyz9876",
+      "username": "gwashington",
+      "displayName": "George Washington",
+      "role": "user"
+    }
+  ],
   "posts": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "title": "A Post One",
+      "username": "gwashington",
+      "author": "George Washington",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo ante a auctor sodales. Vestibulum at dapibus nisl. Pellentesque nunc risus, blandit ut consequat nec, posuere eu leo. Nulla nec condimentum nisi. Integer in gravida massa, in gravida orci. Phasellus pellentesque eros libero, a vulputate tortor cursus sed. Praesent id erat ut dolor vehicula placerat a ut nisl. Integer tincidunt condimentum est vel vehicula.",
+      "comments": [
+        {
+          "id": 1,
+          "body": "I didn't like it.",
+          "author": "Anonymous"
+        },
+        {
+          "id": 2,
+          "body": "It's ok.",
+          "author": "Anonymous"
+        },
+        {
+          "id": 3,
+          "body": "Great post.",
+          "author": "Anonymous"
+        }
+      ]
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "title": "A Post Two",
+      "username": "gwashington",
+      "author": "George Washington",
+      "content": "Duis consequat accumsan metus et mattis. Sed commodo est eget metus ullamcorper, eu laoreet justo hendrerit. Sed in nunc nec quam aliquet mollis. Maecenas venenatis, arcu sit amet aliquam cursus, quam massa bibendum neque, nec ullamcorper ex lectus eu risus. Ut sit amet quam non felis posuere condimentum id in ipsum. Morbi feugiat massa a dui lobortis volutpat. In laoreet elit id eros blandit imperdiet. Sed consequat orci nibh, vitae viverra quam lobortis sed. Aenean ligula justo, gravida ac augue ac, lacinia vehicula lacus. Duis a libero et purus fringilla molestie vel sit amet felis. Aenean blandit arcu sed mauris semper, a feugiat ex efficitur. Aenean condimentum venenatis tellus, non feugiat metus scelerisque sit amet.",
+      "comments": [
+        {
+          "id": 1,
+          "body": "Meh.",
+          "author": "Anonymous"
+        },
+        {
+          "id": 2,
+          "body": "Awesome.",
+          "author": "Anonymous"
+        },
+        {
+          "id": 3,
+          "body": "It was grammatically correct.",
+          "author": "Anonymous"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "A Post Three",
+      "username": "gwashington",
+      "author": "George Washington",
+      "content": "Mauris maximus metus nunc, sit amet lacinia justo mollis ac. Morbi pharetra mollis tellus sit amet venenatis. Nullam et tortor id odio commodo iaculis. Proin efficitur erat in eleifend commodo. In sit amet ante sed diam pretium luctus. Aliquam suscipit varius rhoncus. Maecenas interdum nisi non ipsum cursus, sit amet ornare dui pulvinar. Pellentesque fringilla turpis tortor, eu vehicula quam interdum sed. Phasellus ullamcorper dolor a suscipit elementum. Donec commodo, mauris et varius placerat, lacus tellus ultricies est, faucibus bibendum eros nisi sed nulla. Nam at turpis non metus imperdiet fringilla id id neque. Donec tempus pretium lacinia. Donec elementum quis augue eget consequat. Fusce sodales, est vitae pulvinar gravida, neque lorem semper enim, nec commodo tortor urna sit amet magna. Praesent odio sem, cursus in risus sit amet, faucibus eleifend nunc.",
+      "comments": [
+        {
+          "id": 1,
+          "body": "This is the best post I've ever read in my life.",
+          "author": "Anonymous"
+        },
+        {
+          "id": 2,
+          "body": "Not for me.",
+          "author": "Anonymous"
+        },
+        {
+          "id": 3,
+          "body": "ditto",
+          "author": "Anonymous"
+        }
+      ]
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
