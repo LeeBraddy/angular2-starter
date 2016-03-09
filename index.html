@@ -22,7 +22,15 @@
           app: {
             format: 'register',
             defaultExtension: 'js'
+          },
+          '@ngrx/store': {
+            main: 'index.js',
+            format: 'cjs',
+            defaultExtension: 'js'
           }
+        },
+        map: {
+          '@ngrx/store': 'node_modules/@ngrx/store/dist'
         }
       });
       System.import('app/main')
